@@ -88,7 +88,8 @@ python -m venv .venv
 pip install requirments.txt
 ```
 ## 3. cleaning our dataset 
-
+dowload the dataset image from  https://www.kaggle.com/datasets/kaborg15/vibrent-clothes-rental￾dataset (a Kaggle account is required).
+and put it in the project folder
 ### clean our dataset and save our clean dataset
 
 ```bash
