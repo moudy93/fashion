@@ -6,4 +6,3 @@ venv/
 .env
 data/images
 data/clean_images
-data/embeddings/image_embeddings.npy
