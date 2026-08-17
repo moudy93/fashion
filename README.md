@@ -137,7 +137,8 @@ python app.py
 
 Then open the browser at `http://127.0.0.1:5000/` and upload an image to receive visually similar fashion recommendations.
 
-## demo https://fashion-0iyp.onrender.com/
+
+## demo https://fashion-0iyp.onrender.com
 example 1.
 ![Sample Recommendation Output](output/11.png)
 
