@@ -62,7 +62,8 @@ Once the query image is encoded into an embedding vector, the application compar
 - Encode the query image and compare it to all images we have in our database using cosine similarity
 - Return the top five visually similar images
 
-## Example output
+## evaluation output
+
 
 ![Sample Recommendation Output](model_output_sample.png)
  the model have recommeded us 5 image 
@@ -136,6 +137,15 @@ python app.py
 
 Then open the browser at `http://127.0.0.1:5000/` and upload an image to receive visually similar fashion recommendations.
 
+## demo 
+example 1.
+![Sample Recommendation Output](output/11.png)
+
+example 2.
+![Sample Recommendation Output](output/a11.png)
+
+example 3.
+![Sample Recommendation Output](output/a1111.png)
 ## Limitations
 
 The current prototype relies on a frozen pretrained convolutional network rather than a domain-specific fine-tuned vision model, which keeps the method simple and fast but may miss subtle appearance differences that are important for fashion recommendation. 
